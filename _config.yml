@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your page.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://urbanscenery.github.io
+url:                   https://qwtel.com
 
 # IMPORTANT: Set The "base URL" of your site.
 #
@@ -15,36 +15,38 @@ url:                   https://urbanscenery.github.io
 # When using GitHub Pages, set to '' when hosting a user- or organization page,
 # i.e. when the name of the repository looks like <username>.github.io.
 # Otherwise, set to /<name of repository> (with leading /, but without the < >).
-baseurl:               'urbanscenery.github.io'
+baseurl:               /hydejack-starter-kit
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Develop
+title:                 Hydejack Starter Kit
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  개발공부 기록용 블로그
+  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
+  Combines the best of static sites and modern web apps.
+  Open `_config.yml` to edit this text.
 
-# A shorter description for the sidebar (optional).
+# A shorter description for the sidebar.
 tagline:               >
   A Jekyll theme with JavaScript powers.
   Open `_config.yml` to edit this text.
 
-# A list of keywords for your blog (optional).
+# A list of keywords for your blog.
 keywords:              []
 
-# Used by jekyll-seo-tag (optional).
+# Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
-  name:                <YeonTae> <Kim>
-  email:               <urbanscenery@gmail.com>
+  name:                <firstname> <lastname>
+  email:               <mail@domain.tld>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -165,25 +167,25 @@ exclude:
 # ========================================================================================
 
 plugins:
-  # - jekyll-avatar
-  # - jekyll-default-layout
+  - jekyll-avatar
+  - jekyll-default-layout
   - jekyll-feed
-  # - jekyll-gist
-  # - jekyll-optional-front-matter
+  - jekyll-gist
+  - jekyll-optional-front-matter
   - jekyll-paginate
-  # - jekyll-readme-index
-  # - jekyll-redirect-from
+  - jekyll-readme-index
+  - jekyll-redirect-from
   - jekyll-relative-links
-  # - jekyll-remote-theme
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
-  # - jekyll-titles-from-headings
+  - jekyll-titles-from-headings
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-# remote_theme: qwtel/hydejack@gem
+# theme: jekyll-theme-hydejack
+remote_theme: qwtel/hydejack@gem-7.5.0
 
 
 # SEO Tag
