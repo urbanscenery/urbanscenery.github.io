@@ -19,7 +19,7 @@ date
 
 만약 정상적으로 KST 시간대가 찍힌다면 굳이 변경하지 않아도 됩니다. 
 
-![](https://urbanscenery.github.io/assets/0108/before.png)
+![](https://urbanscenery.github.io/assets/0108/before.png){:height="50%" width="50%"}
 
 
 
@@ -73,7 +73,7 @@ sudo reboot
 date
 ```
 
-![](https://urbanscenery.github.io/assets/0108/after.png)
+![](https://urbanscenery.github.io/assets/0108/after.png){:height="50%" width="50%"}
 
 
 
