@@ -22,9 +22,9 @@ author1:
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
     #twitter:         <username>
-    #github:           https://github.com/urbanscenery
+    github:           urbanscenery
     #download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
-    #email:           mailto:urbanscenery@gmail.com
+    email:           mailto:urbanscenery@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
