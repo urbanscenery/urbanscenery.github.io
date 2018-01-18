@@ -12,7 +12,7 @@ author1:
     더 나은 내일을 바라보며 오늘 노력하는 개발자 김연태입니다.
   # This photo will be used in the about section.
   picture:
-    path:            https://urbanscenery.github.io/assets/img/blog_profile.png
+    path:            https://urbanscenery.github.io/assets/img/blog_profile.jpeg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     #srcset:
       #1x:            https://placehold.it/128x128
