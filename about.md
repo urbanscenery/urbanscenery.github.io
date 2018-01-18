@@ -19,9 +19,17 @@ hide_description: true
 menu: true
 ---
 
-**Hydejack** is the complete package for professionals on the web.
-It features a blog suitable for both prose and technical documentation,
-a showcase for your projects, and a resume that is well-integrated with the design.
+> ### Skills
+- C++
+- JavaScript
+- Node.js
+- MySQL
+- PostgreSQL
 
-> Your presence on the web --- A [blog], a [portfolio] and a [resume].
-{:.lead}
+> ### Education
+- 홍익대학교 컴퓨터공학과 재학
+
+> ### Contact
+- **E-mail**	: urbanscenery@gmail.com
+- **Github**	: https://github.com/urbanscenery
+- **Blog**		: https://urbanscenery.github.io
