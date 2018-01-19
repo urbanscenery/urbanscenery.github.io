@@ -19,7 +19,7 @@ hide_description: true
 menu: true
 ---
 
-## Skills
+### Skills
 
 - C++
 - JavaScript
@@ -27,12 +27,12 @@ menu: true
 - MySQL
 - PostgreSQL
 
-## Education
+### Education
 
 - 홍익대학교 컴퓨터공학과 재학
 
-## Contact
+### Contact
 
-- **E-mail**  : urbanscenery@gmail.com
-- **Github**  : https://github.com/urbanscenery
-- **Blog**    : https://urbanscenery.github.io
+- E-mail  : urbanscenery@gmail.com
+- Github  : https://github.com/urbanscenery
+- Blog    : https://urbanscenery.github.io
