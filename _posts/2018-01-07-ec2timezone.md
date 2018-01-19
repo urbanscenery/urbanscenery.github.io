@@ -3,6 +3,7 @@ layout: post
 title: EC2 인스턴스 표준시간대 변경
 categories: [server]
 tags: [aws, linux]
+comments: true
 ---
 
 **EC2 상에서 moment()를 사용해 현재시간을 표현하면 UTC표준시간(영국시간)으로 찍힙니다. 이를 한국시간으로 제대로 표시하기 위해 EC2의 시간대를 변경해주어야 합니다.**

@@ -3,6 +3,7 @@ layout: post
 title: Django_가상환경설정
 categories: [server]
 tags: [python, piro]
+comments: true
 ---
 
 
