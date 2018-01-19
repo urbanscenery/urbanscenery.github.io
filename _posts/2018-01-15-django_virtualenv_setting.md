@@ -86,7 +86,7 @@ $ echo source /Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwr
 
 
 
-### 5. .bash_profile 적용
+### 5.  .bash_profile 적용
 
 터미널을 닫은후 새로운 터미널을 열거나 다음 명령어를 통해 작업하던 터미널에서 .bash_profile 을 적용합니다
 

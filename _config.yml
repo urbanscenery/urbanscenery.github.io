@@ -76,7 +76,7 @@ font_heading: "'PT Sans', Helvetica, Arial, sans-serif"
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+ disqus:                yeontaekim
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
@@ -204,4 +204,10 @@ compress_html:
 
 sass:
   style:               compressed
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      comments: true
 
