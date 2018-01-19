@@ -98,7 +98,7 @@ source ~/.bash_profile
 
 ### 6. virtualenvwrapper 명령어
 
-> #### 1. 가상환경 만들기
+#### 1. 가상환경 만들기
 
 ```shell
 mkvirtualenv 가상환경이름
@@ -112,7 +112,7 @@ mkvirtualenv 가상환경이름
 
 
 
-> #### 2. 가상환경 빠져나오기
+#### 2. 가상환경 빠져나오기
 
 ```shell
 deactivate
@@ -122,7 +122,7 @@ deactivate
 
 **deactivate** 명령어로 blog 가상환경에서 빠져나온 것을 확인할 수 있습니다.
 
-> #### 3. 가상환경 목록 확인하기
+#### 3. 가상환경 목록 확인하기
 
 ```shell
 workon
@@ -138,7 +138,7 @@ workon
 
 
 
-> #### 4. 가상환경 진입하기
+#### 4. 가상환경 진입하기
 
 ```shell
 workon 가상환경이름
@@ -150,7 +150,7 @@ workon 가상환경이름
 
 
 
-> #### 5. 가상환경 삭제하기
+#### 5. 가상환경 삭제하기
 
 ```shell
 rmvirtualenv 가상환경이름
@@ -158,7 +158,7 @@ rmvirtualenv 가상환경이름
 
 ![](https://urbanscenery.github.io/assets/0115/0115_rmvirtualenv.png)
 
-> **rmvirtualenv** 명령어를 사용해 가상환경을 삭제할 수 있습니다.
+**rmvirtualenv** 명령어를 사용해 가상환경을 삭제할 수 있습니다.
 
 
 
