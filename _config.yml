@@ -204,10 +204,3 @@ compress_html:
 
 sass:
   style:               compressed
-
-defaults:
-  - scope:
-      type: posts
-    values:
-      comments: true
-
