@@ -41,7 +41,7 @@ h2, .h2 {
 h3, .h3 {
   margin-top: 2rem;
   font-size: 1.17rem;
-  border-left: 4px solid #a00b0b;
+  border-left: 4px solid #e53030;
   padding-left: 0.5rem;
 }
 
@@ -123,7 +123,7 @@ blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: $gray;
-  border-left: .25rem solid #a00b0b;
+  border-left: .25rem solid $border-color;
 
   &.lead {
     margin-top: 1.5rem;
