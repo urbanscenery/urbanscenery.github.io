@@ -22,7 +22,7 @@ tags: [python, piro]
 Python3 기준으로 pip3 명령어 사용해 virtualenv, virtualenvwrapper를 설치합니다.
 
 ```shell
-pip3 install virtualenv virtualenvwrapper
+$ pip3 install virtualenv virtualenvwrapper
 ```
 
 
@@ -38,8 +38,8 @@ virturalenvwrapper는 환경변수에 WORKON_HOME이 지정되어 있을 경우 
 터미널에서 ~/dev/.virtualenvs 폴더를 만든 후 .bash_profile 파일에 WORKON_HOME 경로를 ~/dev/.virtualenvs 로 설정합니다.
 
 ```shell
-mkdir ~/dev/.virtualenvs
-echo export WORKON_HOME=~/dev/.virtualenvs >> ~/.bash_profile
+$ mkdir ~/dev/.virtualenvs
+$ echo export WORKON_HOME=~/dev/.virtualenvs >> ~/.bash_profile
 ```
 
 
@@ -51,7 +51,7 @@ echo export WORKON_HOME=~/dev/.virtualenvs >> ~/.bash_profile
 virtualenvwrapper을 사용할 때 python3 를 사용할 것이므로 python3 의 설치경로를 찾아 설정하도록 하겠습니다. 
 
 ```shell
-which python3
+$ which python3
 ```
 
 
@@ -61,7 +61,7 @@ which python3
 python3의 경로가 /usr/local/bin/python3 로 확인되었으므로 해당경로를 .bash_profile 파일에 추가합니다.
 
 ```shell
-echo export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3 >> ~/.bash_profile
+$ echo export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3 >> ~/.bash_profile
 ```
 
 
@@ -73,7 +73,7 @@ virtualenvwrapper.sh 파일에 virtualenvwrapper에 관련된 모든 설정들�
 먼저 virtualenvwrapper.sh의 경로를 찾습니다. 루트폴더에서 찾아야 하므로 sudo 명령어를 사용합니다.
 
 ```shell
-sudo find / -name 'virtualenvwrapper.sh'
+$ sudo find / -name 'virtualenvwrapper.sh'
 ```
 
 ![](https://urbanscenery.github.io/assets/0115/0115_virtualenvwrappershpath.png)
@@ -81,7 +81,7 @@ sudo find / -name 'virtualenvwrapper.sh'
 /Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwrapper.sh 로 경로를 확인하였으므로 이를 .bash_profile 파일에 추가합니다.
 
 ```shell
-echo source /Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwrapper.sh >> ~/.bash_profile
+$ echo source /Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwrapper.sh >> ~/.bash_profile
 ```
 
 
@@ -91,7 +91,7 @@ echo source /Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwrap
 터미널을 닫은후 새로운 터미널을 열거나 다음 명령어를 통해 작업하던 터미널에서 .bash_profile 을 적용합니다
 
 ```shell
-source ~/.bash_profile
+$ source ~/.bash_profile
 ```
 
 
@@ -101,7 +101,7 @@ source ~/.bash_profile
 #### 1. 가상환경 만들기
 
 ```shell
-mkvirtualenv 가상환경이름
+$ mkvirtualenv 가상환경이름
 ```
 
 ![](https://urbanscenery.github.io/assets/0115/0115_mkvirtualenv.png)
@@ -115,7 +115,7 @@ mkvirtualenv 가상환경이름
 #### 2. 가상환경 빠져나오기
 
 ```shell
-deactivate
+$ deactivate
 ```
 
 ![](https://urbanscenery.github.io/assets/0115/0115_deactivate.png)
@@ -125,7 +125,7 @@ deactivate
 #### 3. 가상환경 목록 확인하기
 
 ```shell
-workon
+$ workon
 ```
 
 ![](https://urbanscenery.github.io/assets/0115/0115_workon.png)
@@ -141,7 +141,7 @@ workon
 #### 4. 가상환경 진입하기
 
 ```shell
-workon 가상환경이름
+$ workon 가상환경이름
 ```
 
 ![](https://urbanscenery.github.io/assets/0115/0115_workon2.png)
@@ -153,7 +153,7 @@ workon 가상환경이름
 #### 5. 가상환경 삭제하기
 
 ```shell
-rmvirtualenv 가상환경이름
+$ rmvirtualenv 가상환경이름
 ```
 
 ![](https://urbanscenery.github.io/assets/0115/0115_rmvirtualenv.png)
