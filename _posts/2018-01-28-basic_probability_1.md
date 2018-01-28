@@ -4,6 +4,8 @@ title: 확률과통계 기본정리
 categories: [etc]
 ---
 
+
+
 ### Probability Density Function & Cumulative Distribution Function
 
 
@@ -45,9 +47,7 @@ f를 X의 **probability density function** 이라 한다.
 이때 PDF는 임의의 한 점에서 확률은 항상 0의 값을 가진다. 이는  4번째 수식에서 a = b 일때 적분값이 0인 것으로 확인할 수 있다. 따라서
 
 $$
-\begin{align*}
  P(a\le X \le b) =  P(a< X < b) =  P(a\le X <b) = P(a< X \le b)
-\end{align*}
 $$
 
 의 성질을 갖는다. 
