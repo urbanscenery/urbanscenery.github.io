@@ -91,6 +91,7 @@ $$
 
 
 
+
 ### Gaussian Distribution, Normal Distribution
 
 Normal random variable은 PDF에 의해 정의된다. **continuous random variable X**의 PDF가 다음과 같은 식을 따를 때
@@ -146,4 +147,8 @@ $$
 
 이때 A는 가설, B는 데이터이다. 
 
-여기서 사후확률 P(A|B)를 **Posterior belief** , P(A)를 사전확률 **Prior belief** , P(B|A)를 가능도 **Likelihood** 라 한다.
+여기서 사후확률 P(A\|B)를 **Posterior belief** ,
+
+P(A)를 사전확률 **Prior belief** , 
+
+P(B\|A)를 가능도 **Likelihood** 라 한다.
