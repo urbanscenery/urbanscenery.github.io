@@ -4,7 +4,7 @@ title: 확률과통계 기본정리
 categories: [etc]
 ---
 
-
+## Probability Basic
 
 ### Probability Density Function & Cumulative Distribution Function
 
@@ -47,7 +47,7 @@ f를 X의 **probability density function** 이라 한다.
 이때 PDF는 임의의 한 점에서 확률은 항상 0의 값을 가진다. 이는  4번째 수식에서 a = b 일때 적분값이 0인 것으로 확인할 수 있다. 따라서
 
 $$
- P(a\le X \le b) =  P(a< X < b) =  P(a\le X <b) = P(a< X \le b)
+P(a\le X \le b) =  P(a< X < b) =  P(a\le X <b) = P(a< X \le b)
 $$
 
 의 성질을 갖는다. 
@@ -65,6 +65,8 @@ $$
 
 인 Fx를 X의 **cumulative distribution function** 이라 한다.
 
+![](https://urbanscenery.github.io/assets/0128/0128_cdf.png)
+
 위의 식에서 알 수 있듯 Fx는 fx의 적분으로 시작값은 일반적으로 음의 무한대값을 갖는다. 
 
 따라서 CDF가 가지는 성질은 다음과 같다. 
@@ -80,6 +82,8 @@ $$
 3. $$
   P(x_1 \le X \le x_2) = F_X(x_2) - F_x(x_1)
   $$
+
+
 
 
 
@@ -126,3 +130,20 @@ Z = aX + b ~ Normal(0,1)
 
 a = 1/&sigma; , b = -(&mu;/&sigma;) 로 둔다.
 
+
+
+### Bayesian Probability
+
+#### Prior, Likelihood, Posterior
+
+기존의 확률론이 이미 일어났던 일들이 일어난 빈도를 통해 확률을 계산하는 반면 베이지안 확률론은 아직 일어나지 않은 불확실한 일들에 대해 관련있는 확률들을 사용해 새롭게 일어날 사건의 확률을 추론한다. 
+
+이때 베이즈 확률에서 앞으로 일어날 사후확률은 사전확률과 가능도의 곱에 비례한다. 이는 
+$$
+P(A|B) = \frac{P(A)P(B|A)}{P(B)}
+$$
+의 식으로 나타낼 수 있다.
+
+이때 A는 가설, B는 데이터이다. 
+
+여기서 사후확률 P(A|B)를 **Posterior belief** , P(A)를 사전확률 **Prior belief** , P(B|A)를 가능도 **Likelihood** 라 한다.
