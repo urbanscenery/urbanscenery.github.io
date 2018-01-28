@@ -22,25 +22,29 @@ Random variable X가 음이 아닌 값을 가진
 #### Probability Density Function(PDF)
 
 Random variable X가 연속된 실수 구간에서 값을 취할 수 있는 연속확률변수이고 실수에서의 함수 f가 다음과 같은 성질을 따를 때
-</br>
+
+
 $$
 \begin{align*}
 f_X(x) \ge 0
 \end{align*}
 $$
-</br>
+
+
 $$
 \begin{align*}
 f_X(x) = \int_{-\infty}^\infty f(x)dx = 1
 \end{align*}
 $$
-</br>
+
+
 $$
 \begin{align*}
  P(X \in B) = \int_B f(x)dx
 \end{align*}
 $$
-</br>
+
+
 $$
 \begin{align*}
  P(a\le X \le b) = \int_a^b f(x)dx
@@ -50,6 +54,7 @@ $$
 f를 X의 **probability density function** 이라 한다.
 
 이때 PDF는 임의의 한 점에서 확률은 항상 0의 값을 가진다. 이는  4번째 수식에서 a = b 일때 적분값이 0인 것으로 확인할 수 있다. 따라서
+
 $$
 \begin{align*}
  P(a\le X \le b) =  P(a< X < b) =  P(a\le X <b) = P(a< X \le b)
@@ -86,6 +91,8 @@ $$
 3. $$
   P(x_1 \le X \le x_2) = F_X(x_2) - F_x(x_1)
   $$
+
+
 
 
 
