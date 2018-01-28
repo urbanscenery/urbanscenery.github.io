@@ -17,24 +17,30 @@ Random variable X가 음이 아닌 값을 가진
 
 ### Probability Density Function & Cumulative Distribution Function
 
+
+
 #### Probability Density Function(PDF)
 
 Random variable X가 연속된 실수 구간에서 값을 취할 수 있는 연속확률변수이고 실수에서의 함수 f가 다음과 같은 성질을 따를 때
+</br>
 $$
 \begin{align*}
 f_X(x) \ge 0
 \end{align*}
 $$
+</br>
 $$
 \begin{align*}
 f_X(x) = \int_{-\infty}^\infty f(x)dx = 1
 \end{align*}
 $$
+</br>
 $$
 \begin{align*}
  P(X \in B) = \int_B f(x)dx
 \end{align*}
 $$
+</br>
 $$
 \begin{align*}
  P(a\le X \le b) = \int_a^b f(x)dx
@@ -56,7 +62,30 @@ $$
 
 #### Cumulative Distribution Function(CDF)
 
+Random variable X가 연속확률변수이고 PDF f를 가질 때 
+$$
+\begin{align*}
+F_X(x)= P(X \le x) = P(-\infty \le X \le \infty) = \int_{-\infty}^x f_X(x)dx
+\end{align*}
+$$
 
+인 Fx를 X의 **cumulative distribution function** 이라 한다.
+
+위의 식에서 알 수 있듯 Fx는 fx의 적분으로 시작값은 일반적으로 음의 무한대값을 갖는다. 
+
+따라서 CDF가 가지는 성질은 다음과 같다. 
+
+1. $$
+  F_x(-\infty) = 0
+  $$
+
+2. $$
+  F_x(\infty) = 1
+  $$
+
+3. $$
+  P(x_1 \le X \le x_2) = F_X(x_2) - F_x(x_1)
+  $$
 
 
 
