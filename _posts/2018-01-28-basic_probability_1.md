@@ -4,17 +4,6 @@ title: 확률과통계 기본정리
 categories: [etc]
 ---
 
-
-```mathematica
-P([x, x+a]) = \int_x^{x+a} f_X(t)dt \approx f_X(x)\times a \delta
-```
-
-
-
-### Continuous Random Variable
-
-Random variable X가 음이 아닌 값을 가진 
-
 ### Probability Density Function & Cumulative Distribution Function
 
 
@@ -91,6 +80,8 @@ $$
 3. $$
   P(x_1 \le X \le x_2) = F_X(x_2) - F_x(x_1)
   $$
+
+
 
 
 
