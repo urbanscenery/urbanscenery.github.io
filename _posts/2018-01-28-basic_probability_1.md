@@ -8,6 +8,10 @@ $$
 P([x, x+a]) = \int_x^{x+a} f_X(t)dt \approx f_X(x)\times a \delta
 $$
 
+```mathematica
+P([x, x+a]) = \int_x^{x+a} f_X(t)dt \approx f_X(x)\times a \delta
+```
+
 
 
 ### Probability Density Function(PDF)
@@ -29,6 +33,8 @@ $$
 {X \sim Normal(\mu, \sigma) } \space\space or\space\space{X \sim Gaussian(\mu, \sigma) }
 \end{align*}
 $$
+
+
 이때 Normal  random variable의 성질은 다음과 같다. 
 
 1. E[X] = &mu; , var[X] = &sigma;^2 
@@ -37,6 +43,8 @@ $$
   ![](https://urbanscenery.github.io/assets/0128/0128_normaldistribution.jpg)
 4. X ~ Normal(&mu;, &sigma;)일 때 X에 대한 선형함수 Y역시 Normal이다.
    이때 Y = aX + b 라면 E[Y] = a&mu;+b, var[Y]=a^2&sigma;^2 이다.
+
+
 
 
 
