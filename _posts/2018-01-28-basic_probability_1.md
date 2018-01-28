@@ -18,12 +18,16 @@ Random variable X가 $f_X$
 
 Normal random variable은 PDF에 의해 정의된다. **continuous random variable X**의 PDF가 다음과 같은 식을 따를 때
 $$
+\begin{align*}
 f_X(x) = \frac{1}{\sqrt{2\pi\sigma}}e^-(x-\mu)^2/2\sigma^2
+\end{align*}
 $$
 
 continuous random variable X를 **Gaussian** 혹은 **Normal** 이라 하고 다음과 같이 표기한다.
 $$
+\begin{align*}
 {X \sim Normal(\mu, \sigma) } \space\space or\space\space{X \sim Gaussian(\mu, \sigma) }
+\end{align*}
 $$
 이때 Normal  random variable의 성질은 다음과 같다. 
 
