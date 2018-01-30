@@ -31,6 +31,7 @@ layout: base
 {% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
 {% for addon in addons %}
   {% case addon %}
+  {% include disqus.html %}
   {% when 'about' %}
      {% include about.html %}
   {% when 'related' %}
