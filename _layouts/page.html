@@ -28,6 +28,11 @@ layout: base
     {% include message.html text=page.description hide=page.hide_description %}
   </header>
 
-  {{ content }}
-  {% include disqus.html %}
+  <body>
+  	<div>
+  		{{ content }}
+ 		 	{% include disqus.html %}
+  	</div>
+  </body>
+  
 </article>
