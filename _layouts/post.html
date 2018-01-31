@@ -33,9 +33,10 @@ layout: base
 {% for addon in addons %}
   {% case addon %}
   {% include disqus.html %}
+  {% when 'about' %}
+     {% include about.html %}
   {% when 'related' %}
     {% include related-posts.html post=post %}
   {% else %}
   {% endcase %}
 {% endfor %}
-{% include disqus.html %}
