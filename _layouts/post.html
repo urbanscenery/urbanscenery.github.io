@@ -23,10 +23,10 @@ layout: base
 ---
 
 {% include post.html post=page link_title=false %}
+{% include disqus.html %}
 
 <hr class="dingbat related" />
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
-{% include disqus.html %}
 
 {% assign addons = site.hydejack.post_addons %}
 {% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
